@@ -70,6 +70,7 @@ services:
       - odfe-net
     depends_on:
       - odfe-node1
+    command: /usr/share/logstash/bin/logstash-plugin install logstash-filter-elapsed
 volumes:
   odfe-data1:
   odfe-data2:
