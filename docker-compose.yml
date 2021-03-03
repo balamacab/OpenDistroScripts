@@ -71,7 +71,7 @@ services:
     depends_on:
       - odfe-node1
     command: /usr/share/logstash/bin/logstash-plugin install logstash-filter-elapsed
-    command: /usr/share/logstash/bin/logstash
+    command: /usr/share/logstash/bin/logstash 
 volumes:
   odfe-data1:
   odfe-data2:
